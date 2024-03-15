@@ -123,6 +123,15 @@ main h2{
     font-family: var(--fonte-idroid);
 
 }
+
+main h3{
+    background-color: #288e54b3;
+    border-radius: 10px;
+    color: white;
+  
+    font-size: 20px;
+    padding: 5px;
+}
       
 main img{
     width: 100%;
@@ -140,12 +149,18 @@ p{
     color: #288E55;
 }
 
+li{
+    list-style-position: inside;
+    border-radius: 20px;
+    
+}
+
 footer{
     color: white;
     background-color: #1A6038;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    /*precisa centralizar a frase*/
+    
       
 }
 
@@ -166,7 +181,8 @@ div.video>iframe{
 }
 
 .img{
-    text-align: center
+    text-align: center;
+    size: 50%;
 
 }
 
@@ -198,4 +214,10 @@ div.video>iframe{
 
  .quebra{
    display: inline-block;
+ }
+
+ aside>div{
+    background-color: #83e1ad83;
+    border-radius: 20px;
+    margin: 15px;
  }
