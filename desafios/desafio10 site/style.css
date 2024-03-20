@@ -72,7 +72,7 @@ header>p{
 nav{
 
     margin: 21px;
-    padding: 20px;
+    padding: 2px;
     display: inline;
     margin-top: 20px;
     text-align: center;
@@ -83,7 +83,7 @@ a{
     text-decoration: none;
     transition-duration: 0.5s;
     font-size: 1.2em;
-    padding: 20px;
+    padding: 2px;
     margin: 21px;
 
 }
